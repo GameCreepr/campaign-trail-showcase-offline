@@ -10,6 +10,8 @@ With the UK blocking imgur, plus the rampant link rot in older mods, I have have
 Open cmd in the root of your TCT folder, and with Python installed, run the command `py -m http.server 8000`, starting a locally hosted version of TCT. Now, you can play TCT at [http://localhost:8000](http://localhost:8000) the same as you would with the regular websites, except everything is already downloaded. Ctrl + C or closing the command prompt stops the host; if youre having issues with loading files properly, clear your browser cache.
 
 ## Mod list:
-none yet
-### Soon:
 - American Carnage
+### To-do:
+- W
+- Sundance
+- Obamanation
