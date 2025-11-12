@@ -3,7 +3,7 @@ With the UK blocking imgur, plus the rampant link rot in older mods, I have have
 
 ## Preparing
 1. Download a zip of the [CTS git](https://github.com/campaign-trail-showcase/campaign-trail-showcase.github.io)
-2. From the zip file in the latest release, copy all the file from the root of the zip file, into the root of the extracted CTS files (such that the folders merge, and files are replaced)
+2. From the zip file in the latest CTS-O release, copy the folders from the root of the zip file into the root of the extracted CTS files (such that the folders merge, and files are replaced)
 3. Optionally, you can delete the original mod folder to clear up space before replacing with the new files, but this is not necessary
 
 ## Running
