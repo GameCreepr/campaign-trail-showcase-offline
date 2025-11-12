@@ -847,57 +847,57 @@ input {
     const song1 = new Song(
       "Little Dark Age",
       "MGMT",
-      "https://i.imgur.com/d2ctDiz.png",
-      "https://audio.jukehost.co.uk/LQF5RB2PrVcCeObaqQafC2FTwkysnWdT"
+      "/resources/American Carnage/d2ctDiz.png",
+      "/resources/American Carnage/LQF5RB2PrVcCeObaqQafC2FTwkysnWdT.mp3"
     );
     
     const song2 = new Song(
       "Arrest the President",
       "Ice Cube",
-      "https://i.imgur.com/BBOMLln.png",
-      "https://audio.jukehost.co.uk/c2cWOAnjSfzh2YI3OhW923cClDn3Iqic"
+      "/resources/American Carnage/BBOMLln.png",
+      "/resources/American Carnage/c2cWOAnjSfzh2YI3OhW923cClDn3Iqic.mp3"
     );
   
     const song3 = new Song(
       "This is America",
       "Childish Gambino",
-      "https://i.imgur.com/cBtRj9K.png",
-      "https://audio.jukehost.co.uk/ZaGEkUEbz72UP4IMnC01mwSxwqX4gen6"
+      "/resources/American Carnage/cBtRj9K.png",
+      "/resources/American Carnage/ZaGEkUEbz72UP4IMnC01mwSxwqX4gen6.mp3"
     );
   
     const song4 = new Song(
       "Troubled Times",
       "Green Day",
-      "https://i.imgur.com/unNGqOH.png",
-      "https://audio.jukehost.co.uk/CeVuU7lokNQcuzCWWR2cJ6I6qJuSffzT"
+      "/resources/American Carnage/unNGqOH.png",
+      "/resources/American Carnage/CeVuU7lokNQcuzCWWR2cJ6I6qJuSffzT.mp3"
     );
   
     const song5 = new Song(
       "Is This the Life We Really Want",
       "Roger Waters",
-      "https://i.imgur.com/3NCgTGN.png",
-      "https://audio.jukehost.co.uk/ng58tjZYGQSrNKrGgmH5pFp4wobiaUPe"
+      "/resources/American Carnage/3NCgTGN.png",
+      "/resources/American Carnage/ng58tjZYGQSrNKrGgmH5pFp4wobiaUPe.mp3"
     );
   
     const song6 = new Song(
       "The Kids are Alt-Right",
       "Bad Religion",
-      "https://i.imgur.com/KzlAiiO.png",
-      "https://audio.jukehost.co.uk/f9HDWEKzRO8NtI5ePOLgh0Nn6pz4nXmQ"
+      "/resources/American Carnage/KzlAiiO.png",
+      "/resources/American Carnage/f9HDWEKzRO8NtI5ePOLgh0Nn6pz4nXmQ.mp3"
     );
   
     const song7 = new Song(
       "Vigilante Man",
       "Glen Hansard",
-      "https://i.imgur.com/SvUzGQH.png",
-      "https://audio.jukehost.co.uk/MasC7udHqmabHGNLCJdlD9sSHIx9gpnV"
+      "/resources/American Carnage/SvUzGQH.png",
+      "/resources/American Carnage/MasC7udHqmabHGNLCJdlD9sSHIx9gpnV.mp3"
     );
   
     const song8 = new Song(
       "Real American",
       "Rick Derringer",
-      "https://i.imgur.com/CalYXXW.png",
-      "https://audio.jukehost.co.uk/5aZ2PQqoNvJN2kPuLCaOoGSHmkmI95lk"
+      "/resources/American Carnage/CalYXXW.png",
+      "/resources/American Carnage/5aZ2PQqoNvJN2kPuLCaOoGSHmkmI95lk.mp3"
     );
   
     playlist.addSong(song1);
@@ -921,7 +921,7 @@ input {
   
   const infoContainer = document.createElement("div");
   infoContainer.id = "info-container";
-  infoContainer.style.backgroundImage = "url('https://i.imgur.com/BB1ejv6.png')";
+  infoContainer.style.backgroundImage = "url('/resources/American Carnage/BB1ejv6.png')";
   infoContainer.style.backgroundSize = "cover"; // Optional: adjust based on your needs
   infoContainer.style.color = "white"; // Set text color to white
   
@@ -950,19 +950,19 @@ input {
   
   const prevButton = document.createElement("img");
   prevButton.id = "prevButton";
-  prevButton.src = "https://i.imgur.com/imIqTEA.png";
+  prevButton.src = "/resources/American Carnage/imIqTEA.png";
   prevButton.alt = "Previous";
   controls.appendChild(prevButton);
   
   const playPauseButton = document.createElement("img");
   playPauseButton.id = "playPauseButton";
-  playPauseButton.src = "https://i.imgur.com/oQbfTxw.png"; // Set the default play image
+  playPauseButton.src = "/resources/American Carnage/oQbfTxw.png"; // Set the default play image
   playPauseButton.alt = "Play/Pause";
   controls.appendChild(playPauseButton);
   
   const nextButton = document.createElement("img");
   nextButton.id = "nextButton";
-  nextButton.src = "https://i.imgur.com/7TtaN04.png";
+  nextButton.src = "/resources/American Carnage/7TtaN04.png";
   nextButton.alt = "Next";
   controls.appendChild(nextButton);
   
@@ -972,10 +972,10 @@ input {
     const audio = document.getElementById("audio");
     if (audio.paused) {
       audio.play();
-      playPauseButton.src = "https://i.imgur.com/oQbfTxw.png"; // Set the pause image
+      playPauseButton.src = "/resources/American Carnage/oQbfTxw.png"; // Set the pause image
     } else {
       audio.pause();
-      playPauseButton.src = "https://i.imgur.com/ttdoyfG.png"; // Set the play image
+      playPauseButton.src = "/resources/American Carnage/ttdoyfG.png"; // Set the play image
     }
   });
   
@@ -1013,7 +1013,7 @@ input {
     volumeContainer.id = "volume-container";
   
   const volumeLabel = document.createElement("img");
-  volumeLabel.src = "https://i.imgur.com/0BJYsXt.png";
+  volumeLabel.src = "/resources/American Carnage/0BJYsXt.png";
   volumeLabel.alt = "Volume";
   volumeContainer.appendChild(volumeLabel);
   
@@ -1105,7 +1105,7 @@ input {
       display: flex;
       flex-direction: row;
     height:191px;
-      background-Image: url("https://i.imgur.com/Ok791w6.png");
+      background-Image: url("/resources/American Carnage/Ok791w6.png");
     }
   
     #display-box {
@@ -1205,169 +1205,169 @@ setupMusicPlayer();
 campaignTrail_temp.achievements = {
   
   "Teflon Don" : {
-  "image" : "https://i.imgur.com/Vk9WA5O.gif",
+  "image" : "/resources/American Carnage/Vk9WA5O.gif",
   "description" : "Don't Get Impeached",
   "cannotBeCheated" : true
   },
 
   "Blue Mondays" : {
-    "image" : "https://i.imgur.com/mEWpfgZ.gif",
+    "image" : "/resources/American Carnage/mEWpfgZ.gif",
     "description" : "'Win' The Midterms",
     "cannotBeCheated" : true
     },
 
   "A Switch In Time" : {
-    "image" : "https://i.imgur.com/S9zncV4.gif",
+    "image" : "/resources/American Carnage/S9zncV4.gif",
     "description" : "Get Trump Judges",
     "cannotBeCheated" : true
     },
 
   "Nothingburger" : {
-  "image" : "https://i.imgur.com/fjWvWqr.gif",
+  "image" : "/resources/American Carnage/fjWvWqr.gif",
   "description" : "Get Impeached Twice, And Win",
   "cannotBeCheated" : true
   },
 
   "Dealmaker" : {
-  "image" : "https://i.imgur.com/Z5M2I4H.gif",
+  "image" : "/resources/American Carnage/Z5M2I4H.gif",
   "description" : "Pass 3 Major Bills",
   "cannotBeCheated" : true
   },
 
   "Tired of Winning?" : {
-  "image" : "https://i.imgur.com/1VUJKTy.gif",
+  "image" : "/resources/American Carnage/1VUJKTy.gif",
   "description" : "Pass 0 Major Bills, And Win",
   "cannotBeCheated" : true
   },
 
   "Hunter Killer" : {
-      "image" : "https://i.imgur.com/cqkcPbR.gif",
+      "image" : "/resources/American Carnage/cqkcPbR.gif",
       "description" : "Put an Old Man to Bed",
       "cannotBeCheated" : true
   },
 
   "Bern Out" : {
-      "image" : "https://i.imgur.com/N4ZhWbm.gif",
+      "image" : "/resources/American Carnage/N4ZhWbm.gif",
       "description" : "Halt the Revolution",
       "cannotBeCheated" : true
   },
 
   "Washington red. Skinned" : {
-      "image" : "https://i.imgur.com/etnF8lc.gif",
+      "image" : "/resources/American Carnage/etnF8lc.gif",
       "description" : "School a Professor",
       "cannotBeCheated" : true
   },
 
   "Pride Before the Fall" : {
-      "image" : "https://i.imgur.com/pKyfmzH.gif",
+      "image" : "/resources/American Carnage/pKyfmzH.gif",
       "description" : "Send a Mayor Packing",
       "cannotBeCheated" : true
   },
 
   "Minnesota à trois" : {
-    "image" : "https://i.imgur.com/gyZ2YkP.gif",
+    "image" : "/resources/American Carnage/gyZ2YkP.gif",
     "description" : "Melt a Snowwoman",
     "cannotBeCheated" : true
   },
 
   "Bloomberg Terminal" : {
-      "image" : "https://i.imgur.com/lEYDah3.gif",
+      "image" : "/resources/American Carnage/lEYDah3.gif",
       "description" : "Best an Old Friend",
       "cannotBeCheated" : true
   },
 
   "Don't Stop Believ---" : {
-      "image" : "https://i.imgur.com/ZJZOjp8.gif",
+      "image" : "/resources/American Carnage/ZJZOjp8.gif",
       "description" : "Whack a Jerseyboy",
       "cannotBeCheated" : true
   },
 
   "Texas Told'Em" : {
-      "image" : "https://i.imgur.com/D9tcDzB.gif",
+      "image" : "/resources/American Carnage/D9tcDzB.gif",
       "description" : "Eclipse a Rising Star",
       "cannotBeCheated" : true
   },
 
 "Do the MATH" : {
-    "image" : "https://i.imgur.com/jmPZIv2.gif",
+    "image" : "/resources/American Carnage/jmPZIv2.gif",
     "description" : "Bankrupt a Businessman",
     "cannotBeCheated" : true
   },
 
 "Hawaii Cried-Oh" : {
-    "image" : "https://i.imgur.com/1q1rYKk.gif",
+    "image" : "/resources/American Carnage/1q1rYKk.gif",
     "description" : "Wipeout a Surfer",
     "cannotBeCheated" : true
   },
 
   "What Happened" : {
-    "image" : "https://i.imgur.com/Zs27olV.gif",
+    "image" : "/resources/American Carnage/Zs27olV.gif",
     "description" : "Banish a Spectre",
     "cannotBeCheated" : true
   },
 
   "Audacity of Nope" : {
-    "image" : "https://i.imgur.com/AAn89bR.gif",
+    "image" : "/resources/American Carnage/AAn89bR.gif",
     "description" : "Beat the Best",
     "cannotBeCheated" : true
   },
 
   "You're Fired" : {
-    "image" : "https://i.imgur.com/Vv5mEQI.gif",
+    "image" : "/resources/American Carnage/Vv5mEQI.gif",
     "description" : "Lose",
     "cannotBeCheated" : true
  },
 
   "Back to Jamaica" : {
-      "image" : "https://i.imgur.com/jHSQz7s.gif",
+      "image" : "/resources/American Carnage/jHSQz7s.gif",
       "description" : "Prove Dad Right",
       "cannotBeCheated" : true,
   },
 
   "Take The Hill" : {
-    "image" : "https://i.imgur.com/slpWH7i.gif",
+    "image" : "/resources/American Carnage/slpWH7i.gif",
     "description" : "Be a Sore Loser",
     "cannotBeCheated" : true,
   },
 
   "God's Plan" : {
-    "image" : "https://i.imgur.com/wvQJayc.gif",
+    "image" : "/resources/American Carnage/wvQJayc.gif",
     "description" : "Win, Despite It All",
     "cannotBeCheated" : true,
   },
 
   "FUBAR" : {
-  "image" : "https://i.imgur.com/DFdGYL3.gif",
+  "image" : "/resources/American Carnage/DFdGYL3.gif",
   "description" : "Go a Little Too Far",
   "cannotBeCheated" : true,
   },
 
   "But Who's Counting?" : {
-  "image" : "https://i.imgur.com/LuoDeUT.gif",
+  "image" : "/resources/American Carnage/LuoDeUT.gif",
   "description" : "Lose the Popular Vote By at least 10 Million, And Win",
   "cannotBeCheated" : true
   },
 
   "The Last Temptation" : {
-    "image" : "https://i.imgur.com/5fUwbuR.gif",
+    "image" : "/resources/American Carnage/5fUwbuR.gif",
     "description" : "Cast Out The Devil",
     "cannotBeCheated" : true
     },
 
   "Mask Off" : {
-    "image" : "https://i.imgur.com/8KkPqdX.gif",
+    "image" : "/resources/American Carnage/8KkPqdX.gif",
     "description" : "Win 350 or More Electoral College Votes",
     "cannotBeCheated" : true
 },
 
   "Mask Off" : {
-      "image" : "https://i.imgur.com/8KkPqdX.gif",
+      "image" : "/resources/American Carnage/8KkPqdX.gif",
       "description" : "Win 350 or More Electoral College Votes",
       "cannotBeCheated" : true
   },
 
   "Vincerò" : {
-    "image" : "https://i.imgur.com/XmlrUmn.gif",
+    "image" : "/resources/American Carnage/XmlrUmn.gif",
     "description" : "Win 450 or More Electoral College Votes",
     "cannotBeCheated" : true
   },
