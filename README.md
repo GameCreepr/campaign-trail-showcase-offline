@@ -11,7 +11,7 @@ Open cmd in the root of your TCT folder, and with Python installed, run the comm
 
 ## Mod list:
 - American Carnage
+- Sundance
 ### To-do:
 - W
-- Sundance
 - Obamanation
