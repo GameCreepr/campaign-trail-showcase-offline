@@ -1,5 +1,5 @@
 # Campaign Trail Showcase: Offline Edition
-With the UK blocking imgur, plus the rampant link rot in older mods, I have have decided to adapt various TCT mods to have links point to lcoally hosted files instead of web links. This lets mods last longer since they wont be reliant on file hosts staying online, plus acts as an alternative for those who for whatever reason can't access those file hosts. 
+With the UK blocking imgur, plus the rampant link rot in older mods, I have have decided to adapt various TCT mods to have links point to locally hosted files instead of web links. This lets mods last longer since they wont be reliant on file hosts staying online, plus acts as an alternative for those who for whatever reason can't access those file hosts. 
 
 ## Preparing
 1. Download a zip of the [CTS git](https://github.com/campaign-trail-showcase/campaign-trail-showcase.github.io)
