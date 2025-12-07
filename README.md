@@ -1,3 +1,5 @@
+WIP branch for 2004 W.
+
 # Campaign Trail Showcase: Offline Edition
 With the UK blocking imgur, plus the rampant link rot in older mods, I have have decided to adapt various TCT mods to have links point to locally hosted files instead of web links. This lets mods last longer since they wont be reliant on file hosts staying online, plus acts as an alternative for those who for whatever reason can't access those file hosts. 
 
@@ -15,6 +17,8 @@ Open cmd in the root of your TCT folder, and with Python installed, run the comm
 - Sundance
 - Peace With Honor
 - More than Ever
-### To-do:
+### In progress
 - W
+### To-do:
 - Obamanation
+- Vice
