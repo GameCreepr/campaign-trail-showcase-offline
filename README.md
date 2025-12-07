@@ -17,4 +17,5 @@ Open cmd in the root of your TCT folder, and with Python installed, run the comm
 - More than Ever
 ### To-do:
 - W
+- Vice
 - Obamanation
